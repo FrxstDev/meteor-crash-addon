@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "crash-addon",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for Meteor Client addons.",
+  "name": "Meteor Crash Addon REWORKED",
+  "description": "A Crash addon with many Minecraft Crasher's",
   "authors": [
-    "seasnail"
+    "Drxem"
   ],
   "contact": {
-    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "repo": "https://github.com/FrxstDev/meteor-crash-addon"
   },
-  "icon": "assets/template/icon.png",
+  "icon": "assets/textures/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.AddonTemplate"
+      "de.frxstdev.crashaddon.CrasherUtils"
     ]
   },
   "mixins": [
