@@ -1,85 +1,61 @@
-# Meteor Addon Template
+### 🌠 Meteor Crash Addon (Ported to 1.21.4 by FrxstDev aka Drxem) 🌠
 
-A template to allow easy usage of the Meteor Addon API.
+#### 🇩🇪 Deutsch
+Willkommen zum **Meteor Crash Addon**, portiert von **FrxstDev** auf die Version **1.21.4**. Dieses Addon bringt dir brandneue Crasher und einige aufregende neue Features! 💥
 
-### How to use
+**Folgende Crasher sind jetzt verfügbar:**
+- **AACCrash**
+- **BookCrash**
+- **CompletionCrash**
+- **CreativeCrash**
+- **ErrorCrash**
+- **InteractCrash**
+- **LecternCrash**
+- **MessageLagger**
+- **PacketSpammer**
+- **SequenceCrash**
+- **WindowCrash**
 
-- Clone this project
-- Use this template to create new modules/commands
-- Build the executable using the gradle `build` task.
-- Run the mod with Meteor.
+**Zusätzlich sind folgende Item Creative Crasher verfügbar:**
+- **Fireball Crasher**
+- **Skull Crasher [NEU]**
+- **OOBE (Fireball) Crasher**
+- **Arrow Crasher [NEU] [BETA]**
 
-### Project structure
+💬 **Support und Updates**:
+Für Support, neue Updates und Infos tritt meinem Discord-Server bei!  
+[![Discord Server](https://discordapp.com/api/guilds/818342129862492160/widget.png?style=banner2)](https://discord.gg/wnhvkk7XWU)
 
-```text
-.
-│── .github
-│   ╰── workflows
-│       │── dev_build.yml
-│       ╰── pull_request.yml
-│── gradle
-│   ╰── wrapper
-│       │── gradle-wrapper.jar
-│       ╰── gradle-wrapper.properties
-│── src
-│   ╰── main
-│       │── java
-│       │   ╰── com
-│       │       ╰── example
-│       │           ╰── addon
-│       │               │── commands
-│       │               │   ╰── CommandExample
-│       │               │── hud
-│       │               │   ╰── HudExample
-│       │               │── modules
-│       │               │   ╰── ModuleExample
-│       │               ╰── AddonTemplate
-│       ╰── resources
-│           │── assets
-│           │   ╰── template
-│           │       ╰── icon.png
-│           │── addon-template.mixins.json
-│           ╰── fabric.mod.json
-│── .editorconfig
-│── .gitignore
-│── build.gradle
-│── gradle.properties
-│── gradlew
-│── gradlew.bat
-│── LICENSE
-│── README.md
-╰── settings.gradle
-```
+📺 **Abonniere meinen YouTube Kanal für weitere Videos und Anleitungen**  
+[![YouTube Channel](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/2560px-YouTube_Logo_2017.svg.png)](https://youtube.com/@Drxem)
 
-This is the default project structure. Each folder/file has a specific purpose.  
-Here is a brief explanation of the ones you might need to modify:
+---
 
-- `.github/workflows`: Contains the GitHub Actions configuration files.
-- `gradle`: Contains the Gradle wrapper files.  
-  Edit the `gradle.properties` file to change the version of the Gradle wrapper.
-- `src/main/java/com/example/addon`: Contains the main class of the addon.  
-  Here you can register your custom commands, modules, and HUDs.  
-  Edit the `getPackage` method to reflect the package of your addon.
-- `src/main/resources`: Contains the resources of the addon.
-    - `assets`: Contains the assets of the addon.  
-      You can add your own assets here, separated in subfolders.
-        - `template`: Contains the assets of the template.  
-          You can replace the `icon.png` file with your own addon icon.  
-          Also, rename this folder to reflect the name of your addon.
-    - `addon-template.mixins.json`: Contains the Mixin configuration for the addon.  
-      You can add your own mixins in the `client` array.
-    - `fabric.mod.json`: Contains the metadata of the addon.  
-      Edit the various fields to reflect the metadata of your addon.
-- `build.gradle.kts`: Contains the Gradle build script.  
-  You can manage the dependencies of the addon here.  
-  Remember to keep the `fabric-loom` version up-to-date.
-- `gradle.properties.kts`: Contains the properties of the Gradle build.  
-  These will be used by the build script.
-- `LICENSE`: Contains the license of the addon.  
-  You can edit this file to change the license of your addon.
-- `README.md`: Contains the documentation of the addon.  
-  You can edit this file to reflect the documentation of your addon, and showcase its features.
+#### 🇬🇧 English
+Welcome to the **Meteor Crash Addon**, ported by **FrxstDev** to version **1.21.4**. This addon introduces brand new crashers and some exciting new features! 💥
 
-## License
+**Available crashers now include:**
+- **AACCrash**
+- **BookCrash**
+- **CompletionCrash**
+- **CreativeCrash**
+- **ErrorCrash**
+- **InteractCrash**
+- **LecternCrash**
+- **MessageLagger**
+- **PacketSpammer**
+- **SequenceCrash**
+- **WindowCrash**
 
-This template is available under the CC0 license. Feel free to use it for your own projects.
+**Additionally, the following Item Creative Crashers are available:**
+- **Fireball Crasher**
+- **Skull Crasher**
+- **OOBE (Fireball) Crasher**
+- **Arrow Crasher [BETA]**
+
+💬 **Support and Updates**:
+Join my Discord server for support, new updates, and more info!  
+[![Discord Server](https://discordapp.com/api/guilds/818342129862492160/widget.png?style=banner2)](https://discord.gg/wnhvkk7XWU)
+
+📺 **Subscribe to my YouTube channel for more videos and tutorials**  
+[![YouTube Channel](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/2560px-YouTube_Logo_2017.svg.png)](https://youtube.com/@Drxem)
