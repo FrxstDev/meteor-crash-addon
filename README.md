@@ -20,7 +20,7 @@ Willkommen zum **Meteor Crash Addon**, portiert von **FrxstDev** auf die Version
 - **Fireball Crasher**
 - **Skull Crasher [NEU]**
 - **OOBE (Fireball) Crasher**
-- **Arrow Crasher [NEU] [BETA]**
+- **Arrow Crasher [NEU] [BETA] [FUNKTIONIERT NOCH NICHT]**
 
 💬 **Support und Updates**:
 Für Support, neue Updates und Infos tritt meinem Discord-Server bei!  
@@ -51,7 +51,7 @@ Welcome to the **Meteor Crash Addon**, ported by **FrxstDev** to version **1.21.
 - **Fireball Crasher**
 - **Skull Crasher**
 - **OOBE (Fireball) Crasher**
-- **Arrow Crasher [BETA]**
+- **Arrow Crasher [BETA] [ACTUALLY NOT WORKING]**
 
 💬 **Support and Updates**:
 Join my Discord server for support, new updates, and more info!  
