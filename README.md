@@ -1,6 +1,9 @@
 # Meteor Crash Addon (REWORKED) | 1.21.4
 **ORIGINAL MOD VERSION: 1.20.6** 
+
+---
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="50" alt="Java" />
+---
 
 ## Crashers:
 - AACCrash
