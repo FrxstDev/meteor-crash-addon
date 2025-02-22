@@ -1,6 +1,6 @@
 package de.frxstdev.crashaddon;
 
-import de.frxstdev.crashaddon.commands.CrashItemCommand;
+import de.frxstdev.crashaddon.commands.*;
 import de.frxstdev.crashaddon.hud.HudCredits;
 import de.frxstdev.crashaddon.hud.HudIngamename;
 import de.frxstdev.crashaddon.modules.*;
@@ -41,9 +41,24 @@ public class CrasherUtils extends MeteorAddon {
         Modules.get().add(new PacketSpammer());
         Modules.get().add(new SequenceCrash());
         Modules.get().add(new WindowCrash());
+        Modules.get().add(new ForceOPSign());
+        Modules.get().add(new ForceOPBook());
+        Modules.get().add(new OPServerKill());
 
         // Commands
         Commands.add(new CrashItemCommand());
+        Commands.add(new CrashCommand());
+        Commands.add(new TextCommand());
+        Commands.add(new ClearChatCommand());
+        Commands.add(new ServerCommand());
+        Commands.add(new SaveSkinCommand());
+        Commands.add(new ReconnectCommand());
+        Commands.add(new CopyIPCommand());
+        Commands.add(new ItemRawIDCommand());
+        Commands.add(new CreditsCommand());
+        Commands.add(new MultiverseCrasherCommand());
+        Commands.add(new PexCrasherCommand());
+        Commands.add(new EssentialsCrashCommand());
 
         // HUD
         Hud.get().register(HudCredits.INFO);
@@ -54,6 +69,7 @@ public class CrasherUtils extends MeteorAddon {
     public void onRegisterCategories() {
         Modules.registerCategory(CATEGORY);
     }
+
 
     @Override
     public String getPackage() {

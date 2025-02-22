@@ -51,15 +51,13 @@ public class CrashItemCommand extends Command {
         }));
 
         builder.then(literal("CrashArrow").executes(ctx -> {
-            ItemStack CrashFireball = new ItemStack(Items.SPAWNER);
+            ItemStack CrashFireball = new ItemStack(Items.WITHER_SPAWN_EGG);
             NbtCompound tag2 = new NbtCompound();
             NbtList power = new NbtList();
-            power.add(NbtDouble.of(1.0E43));
+/*            power.add(NbtDouble.of(1.0E43));
             power.add(NbtDouble.of(0));
-            power.add(NbtDouble.of(0));
-            tag2.putString("id","minecraft:block_entity_data");
+            power.add(NbtDouble.of(0));*/
 
-            tag2.putString("id", "minecraft:fireball");
             tag2.put("power", power);
             CrashFireball.set(DataComponentTypes.ENTITY_DATA, NbtComponent.of(tag2));
             CreativeInventoryActionC2SPacket balls = new CreativeInventoryActionC2SPacket(36 + mc.player.getInventory().selectedSlot, CrashFireball);
