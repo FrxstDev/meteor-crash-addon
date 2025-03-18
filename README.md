@@ -19,6 +19,12 @@
 - SequenceCrash
 - WindowCrash
 
+## Crashers [NEW]:
+- Essentials Crashers (chat/command)
+- PermissionsEx Crashers (2 Variants)
+- Multiversecore Crashers (4 Variants | 1 NEW method)
+[TOGGLE THE CRASHERS VIA CHAT COMMAND IN METEOR | MODULES WILL BE ADDED SOON]
+
 ## Creative-Item Crashers:
 - Fireball Crasher
 - Skull Crasher
